@@ -1,0 +1,88 @@
+
+.bodyPage {
+	margin: 0;
+	padding: 0;
+	height: inherit;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapBoxLogin {
+	background-color: #FF6633;
+	width: 500px;
+	max-width: 100%;
+	margin: auto;
+	height: 400px;
+	max-width: 100%;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	border-radius: 125px 0px 165px 165px;
+}
+
+.wraptitle {
+	margin-top: 20px;
+}
+
+h3 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #FFFFFF;
+	font-weight: 700;
+	font-size: 28px;
+}
+
+.wrapInputBox {
+	position: absolute;
+	width: 280px;
+	margin-top: 100px;
+	max-width: 100%;
+}
+
+.wrapInputBox input[type="text"],
+.wrapInputBox input[type="password"] {
+	display: block;
+	margin: 10px auto;
+	font-size: 22px;
+	width: 100%;
+	border: 0;
+	outline: none;
+}
+
+.wrapInputBox input[type="submit"] {
+	width: 100%;
+	display: block;
+	margin-top: 10px;
+	padding: 8px;
+	outline: none;
+	border: 0;
+	cursor: pointer;
+	background-color: #66CC33;
+	font-weight: 600;
+	color: ivory;
+}
+
+.wrapInputBox input[type="submit"]:hover {
+	background-color: #00CC66;
+	border: 0;
+	transition: 8ms;
+	-moz-box-shadow: inset 0 0 10px #00000060;
+	-webkit-box-shadow: inset 0 0 10px #0000006e;
+	box-shadow: inset 0 0 10px #00000054;
+}
+
+.wrapInputBox input[type="submit"]:active {
+	background-color: #669966;
+	border: 0;
+	transition: 8ms;
+}
+
+.alertmessage {
+	position: absolute;
+	bottom: 55px;
+}
+
+P {
+	font-size: 14px;
+	color: #A52A2A;
+}
